@@ -71,7 +71,6 @@ def process_numbers():
 # Remove duplicate values (sets automatically ensure unique elements
 my_set = {1, 2, 3, 4, 5}
 
-
 # numbers is returned from process_numbers function (no need of a parameter)
 result = process_numbers()
 
