@@ -1,8 +1,9 @@
+#Preparing String Input
 s = input("Enter a string of at least 16 characters (with both numbers and letters): ")
 
-if len(s) < 16:
+if len(s) < 16: #Making sure the length of the string is correct
     print("The string is too short. It must be at least 16 characters long.")
-else:
+else: #Dividing the String into Substrings
     numbers = ""
     letters = ""
 
@@ -15,18 +16,18 @@ else:
     print("Numbers substring:", numbers)
     print("Letters substring:", letters)
 
-    even_numbers = ""
+    even_numbers = "" #Making the even numbers substring
     for char in numbers:
         if int(char) % 2 == 0:
             even_numbers += char
     print("Even numbers:", even_numbers)
 
-    uppercase_letters = ""
+    uppercase_letters = "" #Making the uppercase letters substring
     for char in letters:
         if char.isupper():
             uppercase_letters += char
     print("Uppercase letters:", uppercase_letters)
-
+    
+    #Converting the Even numbers and uppercase letters into ASCII
     print("ASCII values of even numbers:", [ord(char) for char in even_numbers])
-
     print("ASCII values of uppercase letters:", [ord(char) for char in uppercase_letters])
