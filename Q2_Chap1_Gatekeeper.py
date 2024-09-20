@@ -16,6 +16,8 @@ image.show()
 
 #Making sure the image is in RGB
 image = image.convert('RGB')
+
+#Preparing for pixel conversion
 pixels = image.load()
 width, height = image.size
 
@@ -30,7 +32,7 @@ for x in range(width):
         red_sum += r #Counting the number of red pixels in the new image
 
 #Saving the new image as output
-image.save(r"C:\Users\thapa\Downloads\Assignment 2\chapter1Out.jpg")
+image.save(r"C:\Users\thapa\Downloads\Question 2\chapter1Out.jpg")
 
 #Displaying the new image and the number of red pixels in it.
 print("Total number of red pixels in new image =", red_sum)
