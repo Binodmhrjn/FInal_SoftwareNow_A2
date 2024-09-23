@@ -3,10 +3,10 @@ import pandas as pd
 
 # List of CSV file paths
 csv_files = [
-    './CSVS/CSV1.csv',  # CSV1 with 'SHORT TEXT' column
-    './CSVS/CSV2.csv',  # CSV2 with 'text' column
-    './CSVS/CSV2.csv',  # CSV3 with 'text' column
-    './CSVS/CSV2.csv'   # CSV4 with 'text' column
+    './CSV1.csv',  # CSV1 with 'SHORT TEXT' column
+    './CSV2.csv',  # CSV2 with 'text' column
+    './CSV2.csv',  # CSV3 with 'text' column
+    './CSV2.csv'   # CSV4 with 'text' column
 ]
 
 # Define the path to save the combined text file
