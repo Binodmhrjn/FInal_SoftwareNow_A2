@@ -24,7 +24,7 @@ word_counts = Counter(words)
 # Get the top 30 most common words
 top_30_words = word_counts.most_common(30)
 
-# Display the top 30 words with their counts (optional)
+# Display the top 30 words with their counts
 for word, count in top_30_words:
     print(f"{word}: {count}")
 
