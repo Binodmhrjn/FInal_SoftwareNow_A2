@@ -1,5 +1,8 @@
 
 import pandas as pd
+import scispacy
+
+from scispacy.linking import EntityLinker
 
 # List of CSV file paths
 csv_files = [
