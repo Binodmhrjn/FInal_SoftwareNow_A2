@@ -1,7 +1,5 @@
 
 import pandas as pd
-
-
 # List of CSV file paths
 csv_files = [
     './CSV1.csv',  # CSV1 with 'SHORT TEXT' column

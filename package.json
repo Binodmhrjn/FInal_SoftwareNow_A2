@@ -12,6 +12,7 @@
   "dependencies": {
     "node-modules": "^1.0.1",
     "pandas": "^0.0.3",
-    "spacy": "^0.0.4"
+    "spacy": "^0.0.4",
+    "transformers": "^3.1.0"
   }
 }
