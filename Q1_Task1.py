@@ -4,8 +4,8 @@ import pandas as pd
 csv_files = [
     './CSV1.csv',  # CSV1 with 'SHORT TEXT' column
     './CSV2.csv',  # CSV2 with 'text' column
-    './CSV2.csv',  # CSV3 with 'text' column
-    './CSV2.csv'   # CSV4 with 'text' column
+    './CSV3.csv',  # CSV3 with 'text' column
+    './CSV4.csv'   # CSV4 with 'text' column
 ]
 
 # Define the path to save the combined text file
