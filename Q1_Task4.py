@@ -37,3 +37,5 @@ diseases_biobert, drugs_biobert = extract_entities_biobert(text)
 # Print the results
 print(f"Diseases (BioBERT): {diseases_biobert}")
 print(f"Drugs (BioBERT): {drugs_biobert}")
+
+
