@@ -74,10 +74,11 @@ cevag(tybony_inevnoyr)
 cevag(zl_qvpg)
 cevag(zl_frg)
 """
+from Q3_key import total
 
 
 # Retreived the key from the given code i.e. 13
-shift_val = 13
+shift_val = total
 decrypted_code = decrypt(encrypted_code, shift_val)
 
 print("Decrypted Code:")
